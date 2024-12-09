@@ -1,0 +1,19 @@
+<files “.htaccess”>
+    order allow,deny
+    deny from all
+    </files>
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [NC,L]
+
+</IfModule>
+Options -Indexes
+
+ErrorDocument 400 errors/400.html
+ErrorDocument 403 errors/403.html
+ErrorDocument 404 errors/404.html
+ErrorDocument 500 errors/500.html
+
