@@ -2,6 +2,12 @@
 ctm file manager online "Cyber ​​Turbo Manager" Web file and folder control panel and web server - CTM PANEL
 ![CTM logo](https://github.com/Cipher1security/CTM/blob/main/logos/l1.jpg)
 
+## Features
+- **User -Friendly Web Interface**
+- **Comprehensive File and Folder Management**
+- **Robust Upload, Edit, and Delete Capabilities**
+- **Multi-User  Support**
+- **Admin Account Creation and Management**
 
 ## Setup Instructions
 
