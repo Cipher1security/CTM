@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('../css/fonts/Vazir.woff2');
+}
+
+body {
+  font-family: 'Vazir';
+  font-size: 16px; 
+  background-color: #0d0d0d;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #e0e0e0;
+}
+
+
+h1 {
+  color: #00ffcc;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.7);
+}
+
+main {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+  background-color: rgba(20, 20, 20, 0.9);
+  transition: all 0.3s ease-in-out; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #00ffcc;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #222;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #00ffcc;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #00ffcc;
+  border: none;
+  border-radius: 4px;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1em;
+}
+
+ul li a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: #00ffcc;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.buttonsub {
+  background-color: #00ffcc;
+  color: #222;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonsub:hover {
+  background-color: #145ca8;
+}
+
+input[type="file"],
+textarea {
+  background-color: #333;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 10px;
+}
+
+.image-preview {
+  float: right;
+  margin: 10px;
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 10px; 
+}
+
+
+.container {
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 255, 204, 0.5);
+  background-color: rgba(30, 30, 30, 0.9);
+  backdrop-filter: blur(5px);
+}
+.alert {
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+  color: #00ccff;
+}
+
+.table-container {
+  max-height: 400px; 
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.table-container {
+  max-height: 400px; 
+  overflow-y: auto;
+  border: 1px solid #00ffcc; 
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 255, 204, 0.5);
+  background-color: #1c1c1c; 
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333; 
+}
+
+th {
+  background-color: #007bff; 
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tr:hover {
+background-color: rgba(36, 183, 209, 0.3); 
+}
+
+td {
+  color: #e0e0e0; 
+}
